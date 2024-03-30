@@ -1,0 +1,618 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-style: normal; 
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+font-style: normal; 
+    background-color: rgb(79, 79, 79);
+}
+
+#circleYellowWala{
+    position: fixed;
+    margin-top: -100px;
+margin-left: 1000px;
+    background-color: rgb(255, 213, 0);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+#circleGreyWala{
+    position: fixed;
+    margin-left: -50px;
+    margin-top: 400px;
+margin-right: 1000px;
+    background-color: grey;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+
+#mainDibba{
+    height: 500px;
+    width: 1100px;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 70px;
+    position: fixed;
+    /* border: 8px double white; */
+}
+
+#leftPatti{
+border: 1px solid rgb(251, 255, 0);
+    height: 500px;
+    width: 7px;
+    background-color: white;
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+#leftDibba{
+
+    height: 500px;
+    width: 300px;
+    background-color: rgb(9, 9, 9);
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 97px;
+}
+
+
+#meriPhoto{
+    margin-top: 30px;
+margin-left: 70px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    border-radius: 50%;
+   border: 5px solid rgb(255, 213, 0);
+}
+
+#meraNam{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: white;
+font-weight: 600;
+margin-top: 265px;
+position: fixed;
+margin-left: 150px;
+font-size: xx-large;
+font-family: "Nunito", sans-serif;
+font-style: normal;
+
+
+}
+
+#namKeNeeche{
+
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
+
+#chottu1{
+
+    height: 33px;
+    width: 150px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: 340px;
+    margin-left: 170px;
+    margin-left: 135px;
+    width: 220px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+#chottu2{
+    border-radius: 20px;
+    height: 33px;
+    width: 150px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: 20px;
+    margin-top: 380px;
+    margin-left: 170px;
+    margin-left: 135px;
+    width: 220px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+#chottu3{
+    border-radius: 20px;
+    height: 33px;
+    width: 150px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    /* margin-top: 20px; */
+    margin-top: 420px;
+    margin-left: 170px;
+    margin-left: 135px;
+    width: 220px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+#chottu4{
+    border-radius: 20px;
+    height: 33px;
+    width: 150px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: 20px;
+    margin-top: 460px;
+    margin-left: 170px;
+    margin-left: 135px;
+    width: 220px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+#chottu5{
+    border-radius: 20px;
+    height: 33px;
+    width: 220px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: 20px;
+    margin-top: 500px;
+    margin-left: 135px;
+    width: 220px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+#btn{
+    border-radius: 20px;
+    height: 33px;
+    width: 25px;
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+    margin-top: 20px;
+    margin-top: 390px;
+    margin-left: 430px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: white;
+}
+#chottu1:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+
+#chottu2:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+
+#chottu3:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+
+
+#chottu4:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+
+
+#chottu5:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+
+#firstLine{
+    position: fixed;
+    color: white;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 140px;
+    font-family: "Nunito", sans-serif;
+font-style: normal;
+}
+
+#secondLine{
+    position: fixed;
+    color: white;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 180px;
+    font-family: "Nunito", sans-serif;
+font-style: normal;
+font-size: 40px;
+font-weight: 700;
+}
+
+#secondLinePeeli{
+    position: fixed;
+    color: rgb(255, 213, 0);
+    align-items: center;
+    margin-left: 465px;
+    margin-top: 180px;
+    font-family: "Nunito", sans-serif;
+font-style: normal;
+font-size: 40px;
+font-weight: 700;
+}
+#btn:hover{
+    background-color: rgb(255, 213, 0);
+color: black;
+transform: scale(1.1);
+transition-duration: 220ms;
+cursor: pointer;
+text-shadow: 2cap;
+box-shadow: 1px 1px 7px  white;
+}
+#ghasFoos{
+    width: 600px;
+    position: fixed;
+    color: rgba(255, 255, 255,0.7);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 250px;
+    font-family: "Nunito", sans-serif;
+font-style: normal;
+line-height: 25px;
+/* font-size: 40px; */
+/* font-weight: 700; */
+}
+
+#sooraj{
+    position: fixed;
+    display: inline-block;
+    margin-left: 1080px;
+    margin-top: 100px;
+}
+
+
+.chottuLightMode{
+
+    background-color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .mainDibbaLight{
+    background-color: white;
+  }
+
+  #meriWali{
+    display: inline-block;
+    margin-left: 1140px;
+    margin-top: 100px;
+}
+
+
+#meriPhoto{
+position: fixed;
+background-size: cover;
+    background-image: url(IMG-20240310-WA0004.jpg);
+}
+
+
+#name{
+    margin-top: 30px;
+    position: fixed;
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#name1{
+    margin-top: 30px;
+    position: fixed;
+    color: rgb(255, 213, 0);
+    margin-left: 410px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#age{
+    margin-top: 70px;
+    position: fixed;
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#age1{
+    margin-top: 70px;
+    position: fixed;
+    color: rgb(255, 213, 0);
+    margin-left: 400px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#qualification{
+    margin-top: 110px;
+    position: fixed;
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#qualification1{
+    margin-top: 110px;
+    position: fixed;
+    color: rgb(255, 213, 0);
+    margin-left: 460px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#post{
+    margin-top: 150px;
+    position: fixed;
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#post1{
+    margin-top: 150px;
+    position: fixed;
+    color: rgb(255, 213, 0);
+    margin-left: 400px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#language{
+    margin-top: 190px;
+    position: fixed;
+    color: white;
+    margin-left: 350px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+#language1{
+    width: 150px;
+    margin-top: 190px;
+    position: fixed;
+    color: rgb(255, 213, 0);
+    margin-left: 440px;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+
+}
+
+#headingYellow{
+    color: rgb(255, 213, 0);
+    margin-top: 20px;
+    margin-left: 550px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+font-size: 40px;
+font-weight: 700;
+display: inline-block;
+position: fixed;
+}
+
+#headingWhite{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 680px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+font-size: 40px;
+font-weight: 700;
+display: inline-block;
+}
+
+hr{
+    background-color: rgba(169, 168, 168,0.5);
+    color: rgba(169, 168, 168,0.5);
+    width:530px;
+    margin-left: 400px;
+}
+
+.abtdibba{
+
+    width: 180px;
+    height: 130px;
+background-color: rgb(38, 38, 38);
+position: fixed;
+
+}
+
+#abtdibba1{
+
+margin-left: 990px;
+margin-top: 50px;
+}
+
+#abtdibba2{
+
+    margin-left: 990px;
+    margin-top: 200px;
+    
+    }
+
+
+    #abtdibba3{
+
+        margin-left: 790px;
+        margin-top: 50px;
+        }
+
+
+
+        #abtdibba4{
+
+            margin-left: 790px;
+            margin-top: 200px;
+            }
+            
+
+#abtPeelaText1{
+text-align: center;
+color: rgb(255, 213, 0);
+font-family: "Nunito", sans-serif;
+font-style: normal;
+font-size: 40px;
+margin-top: 15px;
+
+}
+
+#abtPeelaText2{
+    text-align: center;
+    color: rgb(255, 213, 0);
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 15px;
+    
+    }
+    
+    #abtPeelaText3{
+        text-align: center;
+        color: rgb(255, 213, 0);
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-size: 40px;
+        margin-top: 15px;
+        
+        }
+#abtPeelaText4{
+    text-align: center;
+    color: rgb(255, 213, 0);
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 15px;
+    
+    }
+    
+#abtSafedText1{
+
+font-family: "Nunito", sans-serif;
+font-style: normal; 
+color: #fff;
+text-align: center;
+font-size: 20px;
+
+}
+
+#abtSafedText2{
+
+    font-family: "Nunito", sans-serif;
+    font-style: normal; 
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    
+    }
+      
+#abtSafedText2{
+
+    font-family: "Nunito", sans-serif;
+    font-style: normal; 
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    
+    }
+         
+
+
+#abtSafedText3{
+
+    font-family: "Nunito", sans-serif;
+    font-style: normal; 
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    
+    }
+         
+    #abtSafedText4{
+
+        font-family: "Nunito", sans-serif;
+        font-style: normal; 
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        
+        }
+          
+::selection {
+    color: #000;
+    background: rgb(255, 213, 0);
+  }
+
+
+  
+

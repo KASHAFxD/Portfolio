@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ustad ki website</title>
+</head>
+<body>
+    <div id="circleYellowWala"></div>
+    <div id="circleGreyWala"></div>
+    <div id="mainDibba" class="mainDibba"><p id="contactTextPeela">Contact</p><p id="contactTextSafed">Me<hr></p>
+    <p id="cInfo">Contact Info</p>
+    <i id="cEmail" class="fa-solid fa-envelope fa-flip  fa-xl" style="color: #ffd550;"></i> <p id="cEmail1">Kashafffx@gmail.com</p>
+    <i id="cPhone" class="fa-solid fa-phone fa-bounce fa-xl" style="color: #ffd550;"></i><p id="cPhone11">+91 798 71 71023</p>
+    <i id="cPhone2" class="fa-solid fa-phone fa-bounce fa-xl" style="color: #ffd550;"></i>  <p id="cPhone21">+91 798 71 71023</p>  
+    <i id="cLocation" class="fa-solid fa-location-dot fa-beat-fade fa-xl" style="color: #FFD43B;"></i> <p id="cLocation1">Bhopal, Madhya Pradesh 462038</p>
+
+<div id="formDiv">
+
+<form method="post">
+
+<input type="text" id="contactName" placeholder="Name">
+<input type="email" name="contactEmail" id="contactEmail" placeholder="Email">
+<input type="text" id="contactSubject" placeholder="Subject">
+<textarea name="contactMessage" id="contactMessage" cols="30" rows="10" placeholder="Message"></textarea>
+
+<button id="btn">Send <i class="fa-solid fa-paper-plane fa-bounce" style="color: #ffffff;"></i></button>
+
+</form>
+
+
+</div>
+
+
+</div>
+    <div id="leftPatti"></div>
+    <div id="leftDibba"><div id="meriPhoto"></div></div>
+    <div id="meraNam">Kashaf Khan <p id="namKeNeeche">Full Stack Developer</p></div>
+    <a href="index.html"> <div id="chottu1" class="chottu"><i class="fa-solid fa-house fa-sm" style="color: #ffffff;"></i>  &nbspHome</div> </a>
+    <a href="about.html"> <div id="chottu2" class="chottu"><i class="fa-solid fa-info fa-sm" style="color: #ffffff;"></i> &nbspAbout</div> </a>
+    <a href="education.html"> <div id="chottu3" class="chottu">&nbsp &nbsp &nbsp<i class="fa-solid fa-graduation-cap fa-sm" style="color: #ffffff;"></i> &nbspEducation</div> </a>
+    <div id="chottu4" class="chottu"><i class="fa-solid fa-diagram-project fa-sm" style="color: #fff;"></i> Projects</div>
+   <a href="contact.htm"> <div id="chottu5" class="chottu"><i class="fa-solid fa-phone fa-sm" style="color: #ffffff;"></i> Contact</div> </a>
+    <!-- <div id="chottu6">Signup</div> -->
+    <!-- <a href="#"><div id="btn" onclick="location.reload()">About Me &nbsp<i class="fa-solid fa-user fa-bounce" style="color: #ffffff;"></i></div></a> -->
+
+<div id="sooraj"><i class="fa-solid fa-sun fa-flip fa-2xl" style="color: rgba(255, 255, 255, 0.3); cursor: pointer;" onclick="dinKardo()"></i></div>
+
+<div id="meriWali" onclick="location.reload()"><i class="fa-solid fa-moon fa-flip fa-2xl" style="color: #000; cursor: pointer;"></i></div>
+
+
+
+    <script src="https://kit.fontawesome.com/3844bbb781.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+
+var btn=document.getElementById('btn');
+btn.addEventListener('click',function(e){
+    e.preventDefault()
+    var contactName = document.getElementById('contactName').value;
+    var contactEmail = document.getElementById('contactEmail').value;
+    var contactSubject = document.getElementById('contactSubject').value;
+    var contactMessage = document.getElementById('contactMessage').value;
+    var contactBody = 'bande ka naam : '+contactName +' <br/> Email : ' + contactEmail + '<br/> Subject : ' + contactSubject + '<br/> Message : ' + contactMessage;;
+
+
+    Email.send({
+      SecureToken : "479b1b5f-cc26-49fa-a28e-4599ea509dbf",
+      To : 'yourexamplesite3@gmail.com',
+      From : "yourexamplesite@gmail.com",
+      Subject : "contact ka message hai bhaiya!",
+      Body : contactBody
+  }).then(
+    message => alert("aapka message safalta poorvak pohoch gaya hai :)")
+  );
+  
+
+
+})
+
+    </script>
+    <script src="contact.js"></script>
+
+
+
+    
+</body>
+</html>
